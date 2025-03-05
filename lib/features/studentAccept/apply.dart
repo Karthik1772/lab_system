@@ -3,14 +3,14 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:lab/core/common/custom_buttons.dart';
 import 'package:lab/core/theme/app_colors.dart';
 
-class Accept extends StatefulWidget {
-  const Accept({super.key});
+class Apply extends StatefulWidget {
+  const Apply({super.key});
 
   @override
-  State<Accept> createState() => _AcceptState();
+  State<Apply> createState() => _ApplyState();
 }
 
-class _AcceptState extends State<Accept> {
+class _ApplyState extends State<Apply> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lab/features/splashPage/splash.dart';
-import 'package:lab/features/studentAccept/accept.dart';
+import 'package:lab/features/studentAccept/apply.dart';
 import 'package:lab/features/studentlogin/student_Login.dart';
 import 'package:lab/features/swoHomePage/swo_home.dart';
 import 'package:lab/features/swoLogin/swo_login.dart';
@@ -17,7 +17,7 @@ class Routes {
       case "/swohome":
         return MaterialPageRoute(builder: (context) => SwoHome());
       case "/accept":
-        return MaterialPageRoute(builder: (context) => Accept());
+        return MaterialPageRoute(builder: (context) => Apply());
     }
     return null;
   }
